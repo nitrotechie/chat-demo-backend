@@ -9,7 +9,8 @@ info:
     - Most endpoints require JWT authentication (see Socket.IO section for real-time events).
 
 servers:
-  - url: http://localhost:3000
+  - url: https://chat-demo-backend-k9mz.onrender.com/
+    description: Development server
 
 paths:
   /users:
